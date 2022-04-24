@@ -38,9 +38,11 @@
       <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
         About
       </a>
+      <!--
       <div class="px-4">
         <ThemeSelect />
       </div>
+      -->
     </div>
   </div>
 </div>
