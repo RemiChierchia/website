@@ -1,0 +1,130 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/sitemap.xml.js": {
+    "file": "entries/endpoints/sitemap.xml.js",
+    "src": "src/routes/sitemap.xml.js",
+    "isEntry": true,
+    "imports": [
+      "_graphql-client-fb717272.js"
+    ]
+  },
+  "src/routes/rss.xml.js": {
+    "file": "entries/endpoints/rss.xml.js",
+    "src": "src/routes/rss.xml.js",
+    "isEntry": true,
+    "imports": [
+      "_graphql-client-fb717272.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-613772e2.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js",
+      "_graphql-queries-21e134f9.js",
+      "_graphql-client-fb717272.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js",
+      "_graphql-queries-21e134f9.js",
+      "_graphql-client-fb717272.js",
+      "_project-card-4e241726.js"
+    ]
+  },
+  "src/routes/posts/'[slug]'.svelte": {
+    "file": "entries/pages/posts/'_slug_'.svelte.js",
+    "src": "src/routes/posts/'[slug]'.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js",
+      "_graphql-queries-21e134f9.js",
+      "_graphql-client-fb717272.js"
+    ]
+  },
+  "src/routes/posts/index.svelte": {
+    "file": "entries/pages/posts/index.svelte.js",
+    "src": "src/routes/posts/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js",
+      "_graphql-queries-21e134f9.js",
+      "_graphql-client-fb717272.js"
+    ]
+  },
+  "src/routes/projects/'[slug]'.svelte": {
+    "file": "entries/pages/projects/'_slug_'.svelte.js",
+    "src": "src/routes/projects/'[slug]'.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js",
+      "_graphql-queries-21e134f9.js",
+      "_graphql-client-fb717272.js"
+    ]
+  },
+  "src/routes/projects/index.svelte": {
+    "file": "entries/pages/projects/index.svelte.js",
+    "src": "src/routes/projects/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-87d5ee21.js",
+      "_graphql-queries-21e134f9.js",
+      "_graphql-client-fb717272.js",
+      "_project-card-4e241726.js"
+    ]
+  },
+  "_index-87d5ee21.js": {
+    "file": "chunks/index-87d5ee21.js"
+  },
+  "_graphql-client-fb717272.js": {
+    "file": "chunks/graphql-client-fb717272.js"
+  },
+  "_graphql-queries-21e134f9.js": {
+    "file": "chunks/graphql-queries-21e134f9.js"
+  },
+  "_project-card-4e241726.js": {
+    "file": "chunks/project-card-4e241726.js",
+    "imports": [
+      "_index-87d5ee21.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
