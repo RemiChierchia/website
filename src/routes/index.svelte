@@ -8,7 +8,10 @@
     fetchAuthors,
     fetchSiteMetadata,
     siteMetadataStore,
+    socialsStore,
   } from '$stores/site-metadata'
+  import GitHubIcon from '$components/github-icon.svelte'
+  import LinkedInIcon from '$components/linkedin-icon.svelte'
 
   export const load = async () => {
     await fetchAuthors()
@@ -41,6 +44,7 @@
     openGraphDefaultImage,
   } = $siteMetadataStore || []
   const { name: authorName } = $authorsStore || []
+  const { gitHubUrl, linkedInUrl } = $socialsStore
 </script>
 
 <Head
@@ -51,7 +55,7 @@
 />
 
 <h1 class="font-bold text-center mb-20 text-5xl">
-  Welcome to my Portfolio
+  Welcome to my website!
 </h1>
 
 {#each authors as { name, intro, picture: { url } }}
@@ -64,6 +68,19 @@
     <img class="mask mask-squircle h-48" src={url} alt={name} />
   </div>
 {/each}
+
+
+<div class="card text-center p-5 bg-white">
+  <div class="grid grid-flow-col gap-4">
+    <a href={gitHubUrl}>
+      <GitHubIcon />
+    </a>
+    <a href={linkedInUrl}>
+      <LinkedInIcon />
+    </a>
+  </div>
+</div>
+
 
 <div
   class="grid gap-10 md:grid-cols-4 md:px-10 lg:grid-cols-6 lg:-mx-52"

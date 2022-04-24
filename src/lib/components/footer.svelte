@@ -8,13 +8,15 @@
   import FacebookIcon from './facebook-icon.svelte'
   import TwitterIcon from './twitter-icon.svelte'
   import YouTubeIcon from './you-tube-icon.svelte'
+  import GitHubIcon from '$components/github-icon.svelte'
+  import LinkedInIcon from '$components/linkedin-icon.svelte'
 
   fetchAuthors()
   fetchSocials()
 </script>
 
 <script>
-  const { twitterUrl, youTubeUrl, facebookUrl } = $socialsStore
+  const { twitterUrl, youTubeUrl, facebookUrl, gitHubUrl, linkedInUrl } = $socialsStore
   const { name: AuthorName } = $authorsStore
 </script>
 
@@ -28,6 +30,12 @@
   </div>
   <div>
     <div class="grid grid-flow-col gap-4">
+      <a href={gitHubUrl}>
+        <GitHubIcon />
+      </a>
+      <a href={linkedInUrl}>
+        <LinkedInIcon />
+      </a>
       <a href={twitterUrl}>
         <TwitterIcon />
       </a>

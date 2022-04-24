@@ -2,11 +2,14 @@
   import ThemeSelect from './theme-select.svelte'
 </script>
 
+<!--
 <div
   class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10"
->
+  >
+-->
+<div class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10">
   <div class="flex-1 px-2 mx-2">
-    <a class="text-lg font-bold" href="/"> Portfolio and Blog </a>
+    <a class="text-lg font-bold" href="/"> Remi Chierchia </a>
   </div>
 
   <div class="dropdown dropdown-left lg:hidden">

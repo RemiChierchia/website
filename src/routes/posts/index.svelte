@@ -45,7 +45,8 @@
   url={`${siteUrl}${pathname}`}
 />
 
-<h1 class="text-4xl mb-10 font-extrabold">Blog posts</h1>
+<h1 class="font-bold mb-20 text-center text-5xl">Blog posts</h1>
+<!--<h1 class="text-4xl mb-10 font-extrabold">Blog posts</h1>-->
 
 {#each posts as { title, slug, content, coverImage, tags }}
   <div class="card text-center shadow-2xl mb-20">
