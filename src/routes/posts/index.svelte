@@ -1,26 +1,49 @@
 <script context="module">
-    import { client } from '$lib/graphql-client'
-    import { postsQuery } from '$lib/graphql-queries'
-    import { marked } from 'marked'
-  
-    export const load = async () => {
-      const { posts } = await client.request(postsQuery)
-  
-      return {
-        props: {
-          posts,
-        },
-      }
+  import { page } from '$app/stores'
+  import Head from '$components/head.svelte'
+  import { client } from '$lib/graphql-client'
+  import { postsQuery } from '$lib/graphql-queries'
+  import {
+    fetchSiteMetadata,
+    siteMetadataStore,
+  } from '$stores/site-metadata'
+  import { marked } from 'marked'
+  import { onMount } from 'svelte'
+
+  export const load = async () => {
+    await fetchSiteMetadata()
+
+    const { posts } = await client.request(postsQuery)
+
+    return {
+      props: {
+        posts,
+      },
     }
+  }
 </script>
-  
+
 <script>
-    export let posts
+  export let posts
+  let pathname
+
+  onMount(async () => {
+    pathname = $page.url.pathname
+  })
+
+  const {
+    siteUrl,
+    name: siteName,
+    openGraphDefaultImage,
+  } = $siteMetadataStore || []
 </script>
-  
-<svelte:head>
-    <title>Portfolio | Blog</title>
-</svelte:head>
+
+<Head
+  title={`Blog posts! · ${siteName}`}
+  description={`A list of recent blog posts.`}
+  image={openGraphDefaultImage.url}
+  url={`${siteUrl}${pathname}`}
+/>
 
 <h1 class="text-4xl mb-10 font-extrabold">Blog posts</h1>
 
