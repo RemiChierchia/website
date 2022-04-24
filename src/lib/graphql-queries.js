@@ -86,6 +86,8 @@ export const socialsQuery = gql`
       twitterUrl
       youTubeUrl
       facebookUrl
+      gitHubUrl
+      linkedInUrl
     }
   }
 `

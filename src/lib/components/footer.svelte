@@ -8,8 +8,8 @@
   import FacebookIcon from './facebook-icon.svelte'
   import TwitterIcon from './twitter-icon.svelte'
   import YouTubeIcon from './you-tube-icon.svelte'
-  import GitHubIcon from '$components/github-icon.svelte'
-  import LinkedInIcon from '$components/linkedin-icon.svelte'
+  import GitHubIcon from './github-icon.svelte'
+  import LinkedInIcon from './linkedin-icon.svelte'
 
   fetchAuthors()
   fetchSocials()

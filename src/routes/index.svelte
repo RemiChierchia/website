@@ -58,28 +58,31 @@
   Welcome to my website!
 </h1>
 
-{#each authors as { name, intro, picture: { url } }}
+{#each authors as { name, intro, picture: { url }}}
   <div class="flex mb-40 items-end">
     <div class="mr-6">
       <h2 class="text-3xl mb-4 font-bold tracking-wider">{name}</h2>
-      <p class="text-xl mb-4">{intro}</p>
+      <p class="text-xl mb-4">{intro}</p>      
     </div>
-
+    
     <img class="mask mask-squircle h-48" src={url} alt={name} />
+
+    <div class="mr">
+      <div class="card text-center p-1 bg-white">
+        <div class="grid grid-flow-col gap-4">
+          <a href={gitHubUrl}>
+            <GitHubIcon />
+          </a>
+          <a href={linkedInUrl}>
+            <LinkedInIcon />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+
   </div>
 {/each}
-
-
-<div class="card text-center p-5 bg-white">
-  <div class="grid grid-flow-col gap-4">
-    <a href={gitHubUrl}>
-      <GitHubIcon />
-    </a>
-    <a href={linkedInUrl}>
-      <LinkedInIcon />
-    </a>
-  </div>
-</div>
 
 
 <div
