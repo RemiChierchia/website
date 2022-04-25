@@ -62,32 +62,26 @@
   <div class="flex mb-40 items-end">
     <div class="mr-6">
       <h2 class="text-3xl mb-4 font-bold tracking-wider">{name}</h2>
-      <p class="text-xl mb-4">{intro}</p>      
-    </div>
-    
-    <img class="mask mask-squircle h-48" src={url} alt={name} />
-
-    <div class="mr">
-      <div class="card text-center p-1 bg-white">
-        <div class="grid grid-flow-col gap-4">
+      <p class="text-xl mb-4">{intro}</p>    
+      <button class="btn btn-circle btn-outline">
           <a href={gitHubUrl}>
             <GitHubIcon />
           </a>
+      </button>
+      <button class="btn btn-circle btn-outline">
           <a href={linkedInUrl}>
             <LinkedInIcon />
           </a>
-        </div>
-      </div>
+      </button>  
     </div>
     
+    <img class="mask mask-squircle h-60" src={url} alt={name} />    
 
   </div>
 {/each}
 
 
-<div
-  class="grid gap-10 md:grid-cols-4 md:px-10 lg:grid-cols-6 lg:-mx-52"
->
+<div class="grid gap-10 md:grid-cols-4 md:px-10 lg:grid-cols-6 lg:-mx-52">
   {#each projects as { name, slug, description, image }}
     <ProjectCard {name} {description} url={image[0].url} {slug} />
   {/each}
