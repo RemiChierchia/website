@@ -27,6 +27,7 @@
     <a class="link link-hover" href="/projects">Portfolio</a>
     <a class="link link-hover" href="/posts">Blog</a>
     <a class="link link-hover" href="/about">About</a>
+    <a class="link link-hover" href="/contact">Contact</a>
   </div>
   <div>
     <div class="grid grid-flow-col gap-4">

@@ -7,7 +7,7 @@
   class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10"
   >
 -->
-<div class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10">
+<div class="navbar mb-16 shadow-lg bg-primary text-primary-content sticky top-0 z-10">
   <div class="flex-1 px-2 mx-2">
     <a class="text-lg font-bold" href="/"> Remi Chierchia </a>
   </div>
@@ -27,6 +27,9 @@
       <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
         About
       </a>
+      <a class="btn btn-ghost btn-sm rounded-btn" href="/contact">
+        Contact
+      </a>
     </ul>
   </div>
 
@@ -40,6 +43,9 @@
       </a>
       <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
         About
+      </a>
+      <a class="btn btn-ghost btn-sm rounded-btn" href="/contact">
+        Contact
       </a>
       <!--
       <div class="px-4">
