@@ -13,7 +13,11 @@
   </div>
 
   <div class="dropdown dropdown-left lg:hidden">
-    <div tabindex="0" class="m-1 btn">Links</div>
+    <div tabindex="0">
+        <div class="btn btn-ghost btn-sm rounded-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+        </div>
+    </div>
     <ul
       tabindex="0"
       class="bg-neutral rounded-box shadow text-neutral-content p-2 w-52 menu dropdown-content "
