@@ -63,6 +63,6 @@
   <img class="mx-auto mask mask-squircle h-60" src={url} alt={name} />
 </div>
 
-<article div class="prose prose-lg">
+<article div class="prose md:prose-lg lg:prose-xl">
   {@html marked(bio)}
 </article>
