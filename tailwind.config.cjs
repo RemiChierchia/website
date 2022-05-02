@@ -14,7 +14,7 @@ const config = {
     },
   },
 
-  plugins: [require('@tailwindcss/typography'), require('daisyui')],
+  plugins: [require('@tailwindcss/typography'), require('flowbite/plugin'), require('daisyui')],
 }
 
 module.exports = config

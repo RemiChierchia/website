@@ -1,20 +1,21 @@
+<!--
 <script>
   import ThemeSelect from './theme-select.svelte'
 </script>
-
+-->
 <!--
 <div
   class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10"
   >
 -->
-<div class="navbar mb-16 shadow-lg bg-primary text-primary-content sticky top-0 z-10">
-  <div class="flex-1 px-2 mx-2">
-    <a class="text-lg font-bold" href="/"> Remi Chierchia </a>
+<div class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10">
+  <div class="flex-1 px-2 mx-10">
+    <a class="text-xl font-bold" href="/"> Remi Chierchia </a>
   </div>
 
   <div class="dropdown dropdown-left lg:hidden">
     <div tabindex="0">
-        <div class="btn btn-ghost btn-sm rounded-btn">
+        <div class="btn btn-ghost btn-sm rounded-btn bg-white mx-10">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
         </div>
     </div>
@@ -37,7 +38,7 @@
     </ul>
   </div>
 
-  <div class="flex-none hidden px-2 mx-2 lg:flex">
+  <div class="hidden px-2 mx-10 lg:flex">
     <div class="flex items-stretch">
       <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
         Portfolio
@@ -52,9 +53,9 @@
         Contact
       </a>
       <!--
-      <div class="px-4">
-        <ThemeSelect />
-      </div>
+        <div class="px-4">
+          <ThemeSelect />
+        </div>
       -->
     </div>
   </div>
