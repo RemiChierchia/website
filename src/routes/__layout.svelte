@@ -12,6 +12,8 @@
 
 <Navbar />
 <!--<main class="container mx-auto px-4 mb-20">--> <!--was max-w-3xl-->
+<main>
   <slot />
+</main>
 <!--</main>-->
 <Footer />

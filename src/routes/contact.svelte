@@ -60,17 +60,24 @@
 </div>
 
 <h1 class="font-bold text-center mb-20 text-5xl">Contact</h1>
-  
-<div class="w-full m-auto py-6 px-6 mb-20">
-  <!--<iframe class="aspect-square" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" 
-    src=""></iframe>-->
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32530.165854202587!2d18.00459070695152!3d59.36407967248951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d0392153311%3A0xd3f09d778f59f2c7!2sLappk%C3%A4rrsberget%20SSSB!5e0!3m2!1sen!2sse!4v1651566720859!5m2!1sen!2sse" 
-    title="map" width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-</div>
+<section class="relative mb-20">
+  <div class="absolute inset-0 px-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32530.165854202587!2d18.00459070695152!3d59.36407967248951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d0392153311%3A0xd3f09d778f59f2c7!2sLappk%C3%A4rrsberget%20SSSB!5e0!3m2!1sen!2sse!4v1651566720859!5m2!1sen!2sse" 
+      title="map" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="container px-5 py-24 mx-auto flex">
+    <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+      <h2 class="text-gray-900 font-normal text-xl">Contact me</h2>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!--
 <div class="flex mb-10 items-end">
