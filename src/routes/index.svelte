@@ -54,19 +54,45 @@
   url={`${siteUrl}`}
 />
 
+<div class="container m-auto max-w-3xl px-6">
 {#each authors as { name, intro, picture: { url }}}
+<div class="hero min-h-[90vh] mt-20 mb-20" style='background-image: url({url});'>
+  <div class="hero-overlay bg-opacity-60" />
+  <div class="text-center hero-content text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="text-5xl mb-4 font-bold tracking-wider">Hi, my name is Remi!</h1>
+      <p class="text-xl mb-4">{intro}</p>
+      <div class="btn btn-circle">
+        <a href={gitHubUrl}>
+          <GitHubIcon />
+        </a>
+      </div>
+      <div class="btn btn-circle">
+        <a href={linkedInUrl}>
+          <LinkedInIcon />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{/each}
+</div>
+
+<!--
+{#each authors as { name, intro, picture: { url }}}
+
   <div class="flex mb-20 items-end">
     <div class="container mx-auto flex items-center justify-center flex-col"> 
     <img class="mask mask-squircle h-80" alt="hero" src={url}>
         <div class="text-center lg:w-2/3 w-full">
           <h1 class="text-5xl mb-4 font-bold tracking-wider">Hi, my name is Remi!</h1>
           <p class="text-xl mb-4">{intro}</p>
-          <div class="btn btn-circle bg-white btn-outline">
+          <div class="btn btn-circle">
               <a href={gitHubUrl}>
                 <GitHubIcon />
               </a>
           </div>
-          <div class="btn btn-circle bg-white btn-outline">
+          <div class="btn btn-circle">
               <a href={linkedInUrl}>
                 <LinkedInIcon />
               </a>
@@ -74,9 +100,11 @@
         </div>
     </div>
   </div>
-{/each}
 
-<div class="relative flex py-5 items-center">
+{/each}
+-->
+
+<div class="relative flex py-5 items-center m-auto max-w-5xl">
   <div class="flex-grow border-t-2"></div>
   <span class="flex-shrink text-5xl font-bold tracking-wider mx-4">Recent Projects</span>
   <div class="flex-grow border-t-2"></div>

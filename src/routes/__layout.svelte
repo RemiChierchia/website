@@ -11,7 +11,7 @@
 </script>
 
 <Navbar />
-<main class="container max-w-3xl mx-auto px-4 mb-20">
+<!--<main class="container mx-auto px-4 mb-20">--> <!--was max-w-3xl-->
   <slot />
-</main>
+<!--</main>-->
 <Footer />

@@ -52,11 +52,13 @@
   </div>
 </div>
 
-<!--
+
 
 <h1 class="font-bold mb-20 text-center text-5xl">Blog posts</h1>
-<h1 class="text-4xl mb-10 font-extrabold">Blog posts</h1> //to comment out
+<!--<h1 class="text-4xl mb-10 font-extrabold">Blog posts</h1> //to comment out -->
 
+<!--
+<div class="container m-auto max-w-7xl px-6">
 {#each posts as { title, slug, content, coverImage, tags }}
   <div class="card text-center shadow-2xl mb-20">
     <figure class="">
@@ -82,5 +84,5 @@
     </div>
   </div>
 {/each}
-
+</div>
 -->

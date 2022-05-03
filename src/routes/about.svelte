@@ -52,17 +52,31 @@
   url={`${siteUrl}${pathname}`}
 />
 
+<h1 class="font-bold text-center mb-10 text-5xl">About Me</h1>
+<div class="container m-auto max-w-5xl px-12 pb-20">
+  <a href="/" class="inline-flex items-center mb-6">
+    <img class="mx-auto mask mask-circle h-36" src={url} alt={name} />
+    <span class="flex-grow flex flex-col pl-4">
+      <span class="font-normal text-xl">Remi Chierchia</span>
+      <span class="text-gray-400 text-base mt-0.5">Junior Computer Vision Developer</span>
+    </span>
+  </a>
+  <article class="prose prose-xl">{@html marked(bio)}</article>
+</div>
+<!--
 <h1 class="font-bold text-center mb-20 text-5xl">About Me</h1>
 
-<div class="flex mb-10 items-end">
-  <!--<div class="mr-6">
-    <h2 class="text-3xl mb-4 font-bold tracking-wider">{name}</h2>
-    <p class="text-xl mb-4">{intro}</p>
-  </div>-->
-
+<div class="flex mb-10 items-end"> -->
+    <!--<div class="mr-6">
+      <h2 class="text-3xl mb-4 font-bold tracking-wider">{name}</h2>
+      <p class="text-xl mb-4">{intro}</p>
+    </div>-->
+<!--
   <img class="mx-auto mask mask-squircle h-60" src={url} alt={name} />
-</div>
+</div>-->
 
+<!--
 <article div class="prose md:prose-lg lg:prose-xl">
   {@html marked(bio)}
 </article>
+-->

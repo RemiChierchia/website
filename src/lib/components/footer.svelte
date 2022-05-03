@@ -21,7 +21,7 @@
 </script>
 
 <footer
-  class="p-10 footer bg-primary text-primary-content footer-center"
+  class="p-10 footer bg-secondary-focus text-secondary-content footer-center"
 >
   <div class="grid grid-flow-col gap-4">
     <a class="link link-hover" href="/projects">Portfolio</a>
