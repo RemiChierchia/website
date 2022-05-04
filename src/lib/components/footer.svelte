@@ -10,6 +10,7 @@
   import YouTubeIcon from './you-tube-icon.svelte'
   import GitHubIcon from './github-icon.svelte'
   import LinkedInIcon from './linkedin-icon.svelte'
+  import EmailInIcon from '$components/email-icon.svelte'
 
   fetchAuthors()
   fetchSocials()
@@ -37,6 +38,10 @@
       <a href={linkedInUrl}>
         <LinkedInIcon />
       </a>
+      <a class="fill-current" href="mailto:rchierchia@gmail.com">
+        <EmailInIcon />
+      </a>
+      <!--
       <a href={twitterUrl}>
         <TwitterIcon />
       </a>
@@ -46,6 +51,7 @@
       <a href={facebookUrl}>
         <FacebookIcon />
       </a>
+      -->
     </div>
   </div>
   <div>

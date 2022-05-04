@@ -75,16 +75,14 @@
     <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
       <h2 class="text-black text-3xl">Get in touch</h2>
       <div class="relative py-4">
-        
         <div class="flex space-x-4">
-          <p class="font-sans text-black text-sm md:text-lg my-2 md:my-4">
-
-            <EmailInIcon />
-            rchierchia@gmail.com
-
+          <p class="text-black text-base md:text-lg my-2 md:my-4">
+            <a class="mr-2" href="mailto:rchierchia@gmail.com">
+              <EmailInIcon />
+            </a>
+            rchierchia@gmail.com          
           </p>
         </div>  
-        
       </div>
     </div>
   </div>
