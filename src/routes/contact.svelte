@@ -73,7 +73,7 @@
   </div>
   <div class="container px-5 py-80 mx-auto flex">
     <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-      <h2 class="text-black text-3xl">Get in touch</h2>
+      <h2 class="text-black font-bold text-3xl">Get in touch</h2>
       <div class="relative py-4">
         <div class="flex space-x-4">
           <p class="text-black text-base md:text-lg my-2 md:my-4">

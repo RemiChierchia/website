@@ -52,6 +52,75 @@
   </div>
 </div>
 
+<h1 class="font-bold text-center mb-20 text-5xl">Portfolio</h1>
+
+<div class="flex flex-col w-full mb-20">
+  <div class="h-auto bg-base-200">
+    <div class="flex flex-col w-full lg:flex-row my-10">
+      <div class="grid flex-grow place-items-center font-bold text-center text-4xl">Education</div> 
+      <div class="grid flex-grow place-items-center">
+        <ul class="steps steps-vertical">
+          <li data-content="✓" class="step">
+            <div class="flex-grow flex flex-col pl-4">
+              <span class="font-normal text-xl text-left">Information and Communication Engineering</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">
+                <a class="font-bold">Bachelor's Degree</a> - University of Trento</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">Sept. 2017 - Sept. 2020</span>
+            </div>
+          </li>
+          <li data-content="✓" class="step">
+            <div class="flex-grow flex flex-col pl-4">
+              <span class="font-normal text-xl text-left">Visual Computing Communication</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">
+                <a class="font-bold">EIT Master's Degree 1st year</a> - University of Trento</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">Sept. 2020 - Sept. 2021</span>
+            </div>
+          </li>
+          <li data-content="●" class="step">
+            <div class="flex-grow flex flex-col pl-4">
+              <span class="font-normal text-xl text-left">Visual Computing Communication</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">
+                <a class="font-bold">EIT Master's Degree 2nd year</a> - KTH Royal Institute of Technology</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">Sept. 2021 - Ongoing</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--<h2 class="font-bold text-center my-10 text-4xl">Education</h2>-->
+    </div>
+  </div>
+
+  <div class="h-auto bg-zinc-800">
+    <div class="flex flex-col w-full lg:flex-row my-10">
+      
+      <div class="grid flex-grow place-items-center">
+        <ul class="steps steps-vertical">
+          <li data-content="✓" class="step">
+            <div class="flex-grow flex flex-col pl-4">
+              <span class="font-normal text-xl text-left">Worker</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">Internship - Luxottica Group and EVCO S.p.a.</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">3 months in 2015 and 3 months in 2016</span>
+            </div>
+          </li>
+          <li data-content="●" class="step">
+            <div class="flex-grow flex flex-col pl-4">
+              <span class="font-normal text-xl text-left">Junior Computer Vision Developer</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">Part time - Tracab</span>
+              <span class="text-gray-400 text-base mt-0.5 text-left">Nov. 2021 - Ongoing</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid flex-grow place-items-center font-bold text-center text-4xl">Experiences</div> 
+
+    </div>
+  </div>
+  <div class="h-64 bg-base-200">
+    <h2 class="font-bold text-center my-10 text-4xl">Skills</h2>
+  </div>
+</div>
+
 <!--
 
 <div class="alert alert-info shadow-lg mb-20">
