@@ -71,8 +71,8 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32530.165854202587!2d18.00459070695152!3d59.36407967248951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d0392153311%3A0xd3f09d778f59f2c7!2sLappk%C3%A4rrsberget%20SSSB!5e0!3m2!1sen!2sse!4v1651566720859!5m2!1sen!2sse" 
       title="map" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <div class="container px-5 py-80 mx-auto flex">
-    <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+  <div class="container px-6 py-80 mx-auto flex">
+    <div class="w-full md:w-auto bg-white rounded-lg p-8 flex flex-col md:ml-auto relative shadow-md">
       <h2 class="text-black font-bold text-3xl">Get in touch</h2>
       <div class="relative py-4">
         <div class="flex space-x-4">
@@ -86,6 +86,7 @@
       </div>
     </div>
   </div>
+  <div class="mb:10"></div>
 </section>
 
 <!--
