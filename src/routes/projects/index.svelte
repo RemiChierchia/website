@@ -56,7 +56,7 @@
 
 <div class="flex flex-col w-full mb-20">
   <div class="h-auto bg-base-200">
-    <div class="flex flex-col w-full lg:flex-row my-10">
+    <div class="flex flex-col lg:flex-row my-10 mx-5">
       <div class="grid mb-10 lg:mb-0 flex-grow place-items-center font-bold text-center text-4xl">Education</div> 
       <div class="grid flex-grow place-items-center">
         <ul class="steps steps-vertical">
@@ -91,7 +91,7 @@
   </div>
 
   <div class="h-auto bg-zinc-800">
-    <div class="flex flex-col w-full lg:flex-row my-10">
+    <div class="flex flex-col lg:flex-row my-10 mx-5">
 
       <div class="grid lg:order-last mb-10 lg:mb-0 flex-grow place-items-center font-bold text-center text-4xl">Experiences</div>  
 
