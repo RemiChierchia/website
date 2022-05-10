@@ -41,10 +41,10 @@
       <a class="fill-current" href="mailto:rchierchia@gmail.com">
         <EmailInIcon />
       </a>
-      <!--
       <a href={twitterUrl}>
         <TwitterIcon />
       </a>
+      <!--
       <a href={youTubeUrl}>
         <YouTubeIcon />
       </a>
